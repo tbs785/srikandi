@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SRIKANDI - Validasi Naskah</title>
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!-- Import Tailwind CSS for 100% layout replication -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="text-sm" dir="ltr">
+    <div id="root">
+        <div class="Toastify"></div>
+        <div class="flex min-h-screen flex-col lg:h-screen">
+            <!-- Background Blue Wrapper -->
+            <div class="flex flex-1 justify-center bg-blue-600 p-3 lg:min-h-0 lg:items-center lg:p-6">
+                <!-- Main Card -->
+                <div class="flex w-full flex-col overflow-hidden rounded-2xl bg-white px-5 py-4 shadow-lg lg:max-h-full lg:w-4/5 lg:px-7">
+                    
+                    <div class="flex-shrink-0">
+                        <!-- Logo -->
+                        <div class="flex justify-center">
+                            <img class="w-24 lg:w-48" alt="Logo SRIKANDI" src="https://srikandi.arsip.go.id/assets/logo-srikandi-new-3-CXiv1gnc.png">
+                        </div>
+                        
+                        <!-- Header Text -->
+                        <p class="mb-3 mt-2 text-center text-base font-bold lg:text-sm">
+                            <span class="text-xs">NASKAH DINAS INI DIKELOLA DENGAN APLIKASI</span><br>
+                            SISTEM INFORMASI KEARSIPAN DINAMIS TERINTEGRASI
+                        </p>
+                        
+                        <!-- Hash Box -->
+                        <div class="mb-3 flex flex-col gap-1 rounded-xl bg-gray-100 px-4 py-2 lg:flex-row lg:items-center lg:justify-between">
+                            <p class="text-sm text-gray-600">Nilai Hash</p>
+                            <p class="font-mono text-sm font-bold break-all text-red-600">6076d633bf4a522c046224c7c241e645</p>
+                        </div>
+                        
+                        <p class="mb-2 font-bold text-gray-800">Naskah ini telah tertandatangani oleh :</p>
+                    </div>
+
+                    <!-- Details Section -->
+                    <div class="flex flex-col gap-2 lg:min-h-0 lg:overflow-y-auto lg:pr-1">
+                        <div class="flex flex-shrink-0 flex-col gap-1 rounded-xl border border-gray-200 px-4 py-2 lg:flex-row lg:items-center lg:gap-0 lg:divide-x lg:divide-gray-200">
+                            
+                            <!-- Person Info -->
+                            <div class="mb-2 flex items-center gap-3 lg:mb-0 lg:flex-1 lg:pr-4">
+                                <div class="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path></svg>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-gray-800">Adrianus Amri,S.STP.,M.Si</p>
+                                    <span class="hidden items-center gap-1 rounded-full bg-green-50 px-2 py-0.5 text-xs font-semibold text-green-700 lg:inline-flex">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>Tertandatangani
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- Jabatan -->
+                            <div class="flex gap-2 text-sm lg:flex-1 lg:flex-col lg:gap-1 lg:px-4">
+                                <span class="w-32 md:w-48 lg:w-auto flex-shrink-0 text-gray-600 lg:flex lg:items-center lg:gap-2">
+                                    <span class="hidden text-gray-400 lg:inline"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"></path></svg></span>
+                                    Jabatan
+                                </span>
+                                <span class="text-gray-500 lg:hidden">:</span>
+                                <span class="font-semibold text-gray-800">Kepala Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu Kota Palembang</span>
+                            </div>
+
+                            <!-- Unit Kerja -->
+                            <div class="flex gap-2 text-sm lg:flex-1 lg:flex-col lg:gap-1 lg:px-4">
+                                <span class="w-32 md:w-48 lg:w-auto flex-shrink-0 text-gray-600 lg:flex lg:items-center lg:gap-2">
+                                    <span class="hidden text-gray-400 lg:inline"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"></path></svg></span>
+                                    Unit Kerja
+                                </span>
+                                <span class="text-gray-500 lg:hidden">:</span>
+                                <span class="font-semibold text-gray-800">Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu Kota Palembang</span>
+                            </div>
+
+                            <!-- Instansi -->
+                            <div class="flex gap-2 text-sm lg:flex-1 lg:flex-col lg:gap-1 lg:px-4">
+                                <span class="w-32 md:w-48 lg:w-auto flex-shrink-0 text-gray-600 lg:flex lg:items-center lg:gap-2">
+                                    <span class="hidden text-gray-400 lg:inline"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M240.1 4.2c9.8-5.6 21.9-5.6 31.8 0l171.8 98.1L448 104l0 .9 47.9 27.4c12.6 7.2 18.8 22 15.1 36s-16.4 23.8-30.9 23.8H32c-14.5 0-27.2-9.8-30.9-23.8s2.5-28.8 15.1-36L64 104.9V104l4.4-1.6L240.1 4.2zM64 224h64V416h40V224h64V416h48V224h64V416h40V224h64V420.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512H32c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1V224z"></path></svg></span>
+                                    Instansi
+                                </span>
+                                <span class="text-gray-500 lg:hidden">:</span>
+                                <span class="font-semibold text-gray-800">Pemerintah Kota Palembang</span>
+                            </div>
+
+                            <!-- Ditandatangani pada -->
+                            <div class="flex gap-2 text-sm lg:flex-1 lg:flex-col lg:gap-1 lg:px-4">
+                                <span class="w-32 md:w-48 lg:w-auto flex-shrink-0 text-gray-600 lg:flex lg:items-center lg:gap-2">
+                                    <span class="hidden text-gray-400 lg:inline"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"></path></svg></span>
+                                    Ditandatangani pada
+                                </span>
+                                <span class="text-gray-500 lg:hidden">:</span>
+                                <span class="font-semibold text-gray-800">Jumat, 2 Oktober 2026 pukul 10:25</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Validation Section -->
+                    <!-- <div class="flex-shrink-0">
+                        <hr class="my-3 border-gray-200">
+                        <div>
+                            <p class="font-bold text-gray-800">Validasi Keaslian Naskah</p>
+                            <p class="mb-2 text-sm text-gray-600">Unggah naskah dinas yang Anda miliki untuk diperiksa keasliannya.</p> -->
+                            
+                            <!-- <div class="flex flex-col gap-2 lg:flex-row lg:items-center"> -->
+                                <!-- Upload Input Button -->
+                                <!-- <button type="button" class="flex flex-1 items-center justify-center gap-3 rounded-xl border-2 border-dashed border-gray-300 bg-gray-50 px-4 py-3 text-gray-600 hover:border-blue-500 hover:text-blue-600 transition-colors">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="flex-shrink-0" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V304H176c-35.3 0-64 28.7-64 64V512H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zM176 352h32c30.9 0 56 25.1 56 56s-25.1 56-56 56H192v32c0 8.8-7.2 16-16 16s-16-7.2-16-16V448 368c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24H192v48h16zm96-80h32c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H304c-8.8 0-16-7.2-16-16V368c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H320v96h16zm80-112c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16s-7.2 16-16 16H448v32h32c8.8 0 16 7.2 16 16s-7.2 16-16 16H448v48c0 8.8-7.2 16-16 16s-16-7.2-16-16V432 368z"></path></svg>
+                                    <span class="text-sm font-semibold break-all">Pilih berkas naskah (PDF)</span>
+                                </button>
+                                <input accept="application/pdf" class="hidden" type="file"> -->
+                                
+                                <!-- Submit Button (Styled based on the snapshot UI instead of disabled MUI styles) -->
+                                <!-- <button type="button" class="flex items-center justify-center rounded-xl bg-[#6ba4ff] px-6 py-3 text-sm font-semibold text-white w-full whitespace-nowrap lg:w-auto hover:bg-blue-500 transition-colors shadow-sm">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="me-2" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384v38.6C310.1 219.5 256 287.4 256 368c0 59.1 29.1 111.3 73.7 143.3c-3.2 .5-6.4 .7-9.7 .7H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zM288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm211.3-43.3c-6.2-6.2-16.4-6.2-22.6 0L416 385.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6z"></path></svg>
+                                    VALIDASI NASKAH
+                                </button> -->
+                            <!-- </div> -->
+
+                        <!-- </div>
+                    </div> -->
+
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div class="footer flex flex-shrink-0 items-center justify-center lg:justify-start bg-white px-5 py-2 text-sm text-gray-500 border-t">
+                Copyright © 2026 <a href="https://www.anri.go.id/" class="ms-1 text-blue-500 hover:text-blue-700" target="_blank">Arsip Nasional Republik Indonesia</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
